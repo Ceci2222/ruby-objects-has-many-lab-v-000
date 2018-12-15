@@ -10,8 +10,7 @@ class Post
   end
   
   def author_name
-    self.author.name 
-    binding.pry
+    self.author.name
   end
   
   def self.all
