@@ -19,11 +19,11 @@ class Artist
   end
   
   def songs
-    @songs
+    Song.@@all
   end
   
-  def song_count
-    Song.@@all.count
+  def self.song_count
+    songs.count
   end
 
 end
